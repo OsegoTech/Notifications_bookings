@@ -6,13 +6,13 @@
 
         <title>{{ config('app.name') }}</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-       
+
     </head>
     <body class="antialiased">
         <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen">
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
                 <div class="flex flex-col justify-center items-center">
-                    <h1 class="font-light text-8xl">MyGym</h1>
+                    <h1 class="font-light text-8xl">Gymn App</h1>
                     <div class="mt-8">
                     @if (Route::has('login'))
                         @auth

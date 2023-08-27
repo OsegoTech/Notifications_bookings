@@ -16,6 +16,8 @@ class BookingController extends Controller
     }
 
     public function store(Request $request){
+        // explain the bookings() method
+        
         auth()->user()->bookings()->attach($request->scheduled_class_id);
 
         return redirect()->route('booking.index');
