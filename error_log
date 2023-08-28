@@ -1,0 +1,12 @@
+[27-Aug-2023 14:17:11 UTC] PHP Fatal error:  Uncaught Error: Typed property Laravel\Prompts\Terminal::$initialTtyMode must not be accessed before initialization in /home/millerju/public_html/gymnasium/Notifications_bookings/vendor/laravel/prompts/src/Terminal.php:49
+Stack trace:
+#0 /home/millerju/public_html/gymnasium/Notifications_bookings/vendor/laravel/prompts/src/Prompt.php(85): Laravel\Prompts\Terminal->restoreTty()
+#1 [internal function]: Laravel\Prompts\Prompt->Laravel\Prompts\{closure}()
+#2 {main}
+  thrown in /home/millerju/public_html/gymnasium/Notifications_bookings/vendor/laravel/prompts/src/Terminal.php on line 49
+[27-Aug-2023 14:23:27 UTC] PHP Fatal error:  Uncaught Error: Typed property Laravel\Prompts\Terminal::$initialTtyMode must not be accessed before initialization in /home/millerju/public_html/gymnasium/Notifications_bookings/vendor/laravel/prompts/src/Terminal.php:49
+Stack trace:
+#0 /home/millerju/public_html/gymnasium/Notifications_bookings/vendor/laravel/prompts/src/Prompt.php(85): Laravel\Prompts\Terminal->restoreTty()
+#1 [internal function]: Laravel\Prompts\Prompt->Laravel\Prompts\{closure}()
+#2 {main}
+  thrown in /home/millerju/public_html/gymnasium/Notifications_bookings/vendor/laravel/prompts/src/Terminal.php on line 49
