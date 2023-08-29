@@ -23,7 +23,10 @@ use Spatie\LaravelIgnition\Solutions\SolutionProviders\UndefinedViewVariableSolu
 use Spatie\LaravelIgnition\Solutions\SolutionProviders\UnknownValidationSolutionProvider;
 use Spatie\LaravelIgnition\Solutions\SolutionProviders\ViewNotFoundSolutionProvider;
 use Spatie\LaravelIgnition\Solutions\SolutionProviders\OpenAiSolutionProvider;
+<<<<<<< HEAD
 use Spatie\LaravelIgnition\Solutions\SolutionProviders\SailNetworkSolutionProvider;
+=======
+>>>>>>> 297a5641a0f85ef20cb32695963b3e4b139ff2a1
 
 return [
 
@@ -118,7 +121,10 @@ return [
         UndefinedViewVariableSolutionProvider::class,
         GenericLaravelExceptionSolutionProvider::class,
         OpenAiSolutionProvider::class,
+<<<<<<< HEAD
         SailNetworkSolutionProvider::class,
+=======
+>>>>>>> 297a5641a0f85ef20cb32695963b3e4b139ff2a1
     ],
 
     /*

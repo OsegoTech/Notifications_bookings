@@ -65,11 +65,14 @@ function display_help {
     echo "  ${GREEN}sail npx${NC}            Run a npx command"
     echo "  ${GREEN}sail npm run prod${NC}"
     echo
+<<<<<<< HEAD
     echo "${YELLOW}PNPM Commands:${NC}"
     echo "  ${GREEN}sail pnpm ...${NC}        Run a pnpm command"
     echo "  ${GREEN}sail pnpx${NC}            Run a pnpx command"
     echo "  ${GREEN}sail pnpm run prod${NC}"
     echo
+=======
+>>>>>>> 297a5641a0f85ef20cb32695963b3e4b139ff2a1
     echo "${YELLOW}Yarn Commands:${NC}"
     echo "  ${GREEN}sail yarn ...${NC}        Run a Yarn command"
     echo "  ${GREEN}sail yarn run prod${NC}"
@@ -396,6 +399,7 @@ elif [ "$1" == "npx" ]; then
         sail_is_not_running
     fi
 
+<<<<<<< HEAD
 # Proxy PNPM commands to the "pnpm" binary on the application container...
 elif [ "$1" == "pnpm" ]; then
     shift 1
@@ -420,6 +424,8 @@ elif [ "$1" == "pnpx" ]; then
         sail_is_not_running
     fi
 
+=======
+>>>>>>> 297a5641a0f85ef20cb32695963b3e4b139ff2a1
 # Proxy YARN commands to the "yarn" binary on the application container...
 elif [ "$1" == "yarn" ]; then
     shift 1
