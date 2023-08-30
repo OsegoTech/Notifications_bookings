@@ -1,1 +1,1 @@
-<img src="{{asset('/images/logo.png')}}" alt="" class="rounded-full w-[100px]">
+<h1 class="text-blue-600 font-extrabold text-7xl">RFC</h1>
