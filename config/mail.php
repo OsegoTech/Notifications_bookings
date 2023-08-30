@@ -99,8 +99,12 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'gymnaisum@millerjuma.co.ke'),
+        'name' => env('MAIL_FROM_NAME', 'Royal Fitness Center'),
+    ],
+
+    'reply_to' => [
+        'address' => env('MAIL_REPLY_TO_ADDRESS', 'gymnaisum@millerjuma.co.ke'),
     ],
 
     /*
